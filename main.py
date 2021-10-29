@@ -67,7 +67,7 @@ class GitHubClient(object):
 
     def get_last_diff(self):
         """Get the last diff."""
-        if true
+        if True
             # Initial run test - josh
             diff_url = f'{self.repos_url}{self.repo}/commits/{self.sha}'        
         elif self.before != '0000000000000000000000000000000000000000':
